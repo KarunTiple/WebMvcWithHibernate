@@ -31,7 +31,7 @@ public class EmployeeDaoImpl implements EmployeeDaoI {
 
 	@Override
 	public List<Employee> getAllEmployees() {
-		
+
 		Session session = sessionFactory.openSession();
 
 		String query = "from Employee";
